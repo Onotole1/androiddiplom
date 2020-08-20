@@ -70,7 +70,7 @@
         android:layout_width="match_parent"
         android:layout_height="56dp"
         android:layout_gravity="bottom"
-        app:backgroundTint="@color/colorWhiteTr60"
+        app:backgroundTint="@color/colorAccent"
         app:elevation="8dp"
         app:fabAlignmentMode="end" />
 
@@ -78,7 +78,6 @@
         android:id="@+id/fabConfirm"
         android:layout_width="56dp"
         android:layout_height="56dp"
-        android:src="@drawable/ic_baseline_done_24"
         app:elevation="12dp"
         app:layout_anchor="@id/barEditor" />
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
