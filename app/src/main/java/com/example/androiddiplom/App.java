@@ -2,9 +2,9 @@ package com.example.androiddiplom;
 
 import android.app.Application;
 
-import com.example.locknote.database.DaggerStorageComponent;
-import com.example.locknote.database.StorageComponent;
-import com.example.locknote.database.StorageModule;
+import com.example.androiddiplom.database.DaggerStorageComponent;
+import com.example.androiddiplom.database.StorageComponent;
+import com.example.androiddiplom.database.StorageModule;
 
 public class App extends Application {
 

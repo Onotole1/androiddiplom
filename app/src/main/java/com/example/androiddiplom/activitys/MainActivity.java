@@ -28,7 +28,7 @@ import java.util.List;
 
 import static com.example.androiddiplom.R.string.toast_edit_note_click;
 
-public class MainActivity<TextInputEditText, FloatingActionButton> extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity {
     private NotesDataAdapter adapter;
     private TextInputEditText search;
     private NoteDao noteDao;

@@ -2,10 +2,8 @@ package com.example.androiddiplom.activitys;
 
 import android.content.Context;
 import android.os.Bundle;
-import android.support.design.widget.BottomAppBar;
 import android.text.Editable;
 import android.text.TextWatcher;
-import android.text.method.HideReturnsTransformationMethod;
 import android.text.method.PasswordTransformationMethod;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -24,7 +22,7 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 import static com.example.androiddiplom.activitys.LoginActivity.savedPin;
 
-public class SettingsActivity<FloatingActionButton> extends AppCompatActivity {
+public class SettingsActivity extends AppCompatActivity {
     private static final String PREF_PIN = "pref_pin";
     private EditText pin;
     private int progress = 0;
